@@ -1,0 +1,29 @@
+{% load static %}
+<script type="text/javascript" src="{% static "news/jquery-3.3.1.js" %}"></script>
+<span id="dummy"></span>
+
+
+<ul>
+{% for card in top_five_cards %}
+    <li>
+        <div>
+            <img src={{ card.pic_url }} />
+        </div>
+        <br />
+        <br />
+        {{ card.text |safe }}
+        <br />
+        <br />
+        <button class="audio" value={{ card.tts_url }}>Play Audio</button>
+        <br />
+    </li>
+{% endfor %}
+</ul>
+
+<script type="text/javascript" src="{% static "news/logic.js" %}"></script>
+
+
+
+
+
+

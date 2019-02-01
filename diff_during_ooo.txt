@@ -1,0 +1,79 @@
+ * branch            master     -> FETCH_HEAD
+Updating e8fe2ca..b3e2ee8
+Fast-forward
+ batch_generation.sh                                                                                                                  |   8 +-
+ short_video_generation/video_production/cut_videos_for_one_topic/__init__.py                                                         |   1 -
+ short_video_generation/video_production/extract_service/__init__.py                                                                  |   1 -
+ short_video_generation/video_production/extract_service/extract.py                                                                   |  75 -------------
+ short_video_generation/video_production/resource_loader.py                                                                           | 264 --------------------------------------------
+ short_video_generation/video_production/tts_service.py                                                                               | 139 -----------------------
+ short_video_generation/{video_production => vidpress}/__init__.py                                                                    |   0
+ short_video_generation/{video_production => vidpress}/__main__.py                                                                    |  12 +-
+ short_video_generation/vidpress/cluster/__init__.py                                                                                  |   1 +
+ short_video_generation/{video_production/cluster_extract.py => vidpress/cluster/extract.py}                                          |  57 +++++++++-
+ short_video_generation/{video_production => vidpress/cluster}/key_entity_finder.py                                                   |   2 +-
+ short_video_generation/{video_production => vidpress/cluster}/summarizer.py                                                          |   2 +-
+ .../{video_production/cut_videos_for_one_topic/cut_videos_for_one_topic.py => vidpress/cluster/video_segmentation.py}                |   2 +-
+ short_video_generation/{video_production => vidpress}/cmdline.py                                                                     |  14 +--
+ short_video_generation/vidpress/common/__init__.py                                                                                   |   1 +
+ short_video_generation/{video_production => vidpress/common}/ai_service.py                                                           |   0
+ short_video_generation/{video_production => vidpress/common}/pipeline_step.py                                                        |   0
+ short_video_generation/{video_production => vidpress/common}/report_collector.py                                                     |  22 ++--
+ short_video_generation/{video_production => vidpress}/demo.py                                                                        |   0
+ short_video_generation/vidpress/production/__init__.py                                                                               |   1 +
+ short_video_generation/{video_production => vidpress/production}/paragraph_media_aligner.py                                          |   2 +-
+ short_video_generation/vidpress/production/resource_loader.py                                                                        | 417 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ short_video_generation/{video_production => vidpress/production}/screen_writer.py                                                    |   8 +-
+ short_video_generation/{video_production => vidpress/production}/timeline_composer.py                                                |   6 +-
+ short_video_generation/{video_production => vidpress/production}/timeline_qa.py                                                      |   0
+ short_video_generation/vidpress/render/__init__.py                                                                                   |   1 +
+ short_video_generation/{video_production => vidpress/render}/composer.py                                                             |  40 ++-----
+ short_video_generation/{video_production/process_image_tracks.py => vidpress/render/image_process.py}                                | 118 +++++++++-----------
+ short_video_generation/{video_production => vidpress}/samples/sample_extracted_assets/extracted_data.json                            |   0
+ short_video_generation/{video_production => vidpress}/samples/sample_extracted_assets/extracted_data_chinese.json                    |   0
+ short_video_generation/{video_production => vidpress}/samples/sample_extracted_assets/sample_news.json                               |   0
+ short_video_generation/{video_production => vidpress}/samples/sample_extracted_assets/sample_news_output.json                        |   0
+ short_video_generation/{video_production => vidpress}/samples/sample_extracted_assets/warehouse/news1.json                           |   0
+ short_video_generation/{video_production => vidpress}/samples/sample_extracted_assets/warehouse/news2.json                           |   0
+ short_video_generation/{video_production => vidpress}/samples/sample_extracted_assets/warehouse/news3.json                           |   0
+ short_video_generation/{video_production => vidpress}/samples/sample_script/video_compose_script.json                                |   0
+ short_video_generation/{video_production => vidpress}/tests/__init__.py                                                              |   0
+ short_video_generation/{video_production => vidpress}/tests/screen_writer_test.py                                                    |   0
+ 38 files changed, 578 insertions(+), 616 deletions(-)
+ delete mode 100644 short_video_generation/video_production/cut_videos_for_one_topic/__init__.py
+ delete mode 100644 short_video_generation/video_production/extract_service/__init__.py
+ delete mode 100644 short_video_generation/video_production/extract_service/extract.py
+ delete mode 100644 short_video_generation/video_production/resource_loader.py
+ delete mode 100644 short_video_generation/video_production/tts_service.py
+ rename short_video_generation/{video_production => vidpress}/__init__.py (100%)
+ rename short_video_generation/{video_production => vidpress}/__main__.py (65%)
+ create mode 100644 short_video_generation/vidpress/cluster/__init__.py
+ rename short_video_generation/{video_production/cluster_extract.py => vidpress/cluster/extract.py} (73%)
+ rename short_video_generation/{video_production => vidpress/cluster}/key_entity_finder.py (98%)
+ rename short_video_generation/{video_production => vidpress/cluster}/summarizer.py (99%)
+ rename short_video_generation/{video_production/cut_videos_for_one_topic/cut_videos_for_one_topic.py => vidpress/cluster/video_segmentation.py} (99%)
+ rename short_video_generation/{video_production => vidpress}/cmdline.py (86%)
+ create mode 100644 short_video_generation/vidpress/common/__init__.py
+ rename short_video_generation/{video_production => vidpress/common}/ai_service.py (100%)
+ rename short_video_generation/{video_production => vidpress/common}/pipeline_step.py (100%)
+ rename short_video_generation/{video_production => vidpress/common}/report_collector.py (88%)
+ rename short_video_generation/{video_production => vidpress}/demo.py (100%)
+ create mode 100644 short_video_generation/vidpress/production/__init__.py
+ rename short_video_generation/{video_production => vidpress/production}/paragraph_media_aligner.py (92%)
+ create mode 100644 short_video_generation/vidpress/production/resource_loader.py
+ rename short_video_generation/{video_production => vidpress/production}/screen_writer.py (92%)
+ rename short_video_generation/{video_production => vidpress/production}/timeline_composer.py (97%)
+ rename short_video_generation/{video_production => vidpress/production}/timeline_qa.py (100%)
+ create mode 100644 short_video_generation/vidpress/render/__init__.py
+ rename short_video_generation/{video_production => vidpress/render}/composer.py (90%)
+ rename short_video_generation/{video_production/process_image_tracks.py => vidpress/render/image_process.py} (71%)
+ rename short_video_generation/{video_production => vidpress}/samples/sample_extracted_assets/extracted_data.json (100%)
+ rename short_video_generation/{video_production => vidpress}/samples/sample_extracted_assets/extracted_data_chinese.json (100%)
+ rename short_video_generation/{video_production => vidpress}/samples/sample_extracted_assets/sample_news.json (100%)
+ rename short_video_generation/{video_production => vidpress}/samples/sample_extracted_assets/sample_news_output.json (100%)
+ rename short_video_generation/{video_production => vidpress}/samples/sample_extracted_assets/warehouse/news1.json (100%)
+ rename short_video_generation/{video_production => vidpress}/samples/sample_extracted_assets/warehouse/news2.json (100%)
+ rename short_video_generation/{video_production => vidpress}/samples/sample_extracted_assets/warehouse/news3.json (100%)
+ rename short_video_generation/{video_production => vidpress}/samples/sample_script/video_compose_script.json (100%)
+ rename short_video_generation/{video_production => vidpress}/tests/__init__.py (100%)
+ rename short_video_generation/{video_production => vidpress}/tests/screen_writer_test.py (100%)

@@ -1,0 +1,653 @@
+{
+  "errno": 0,
+  "data": [
+    {
+      "isFilterNoTag": 1,
+      "del_tag": 3,
+      "new_title_basic_seg_list": [
+        "美国",
+        " ",
+        "加州",
+        "山",
+        "火",
+        "持续",
+        " ",
+        "已",
+        "致",
+        "44",
+        "人",
+        "死亡"
+      ],
+      "default_vodHW": "720$$1280",
+      "is_enable": 1,
+      "is_hq_author": 1,
+      "checkproperty_scene": [],
+      "nid": "4861280493100073230",
+      "title_sign": 15206362306411322239,
+      "video_tags_source": [
+        {
+          "事故灾难": "subcate"
+        },
+        {
+          "国际社会": "cluster"
+        },
+        {
+          "加州大火": "cluster"
+        },
+        {
+          "美国加州": "cluster"
+        },
+        {
+          "灾难灾害": "cluster"
+        }
+      ],
+      "checkquality": 0,
+      "vid": "4861280493100073230",
+      "self_recommend": 0,
+      "category_feed": "社会,灾难事故",
+      "episode_id": "",
+      "nlpc_title_ner": [
+        "美国",
+        "加州",
+        "44人"
+      ],
+      "value_general_tags": [],
+      "quality_emergent_flags": {
+        "50010": "unfr_brush_default",
+        "70010": "fr_brush_default"
+      },
+      "istop": 0,
+      "title_len": 30,
+      "is_microvideo": 0,
+      "piclist_feat": "{\"feat\": [0.11449925601482391, 0.9754732847213745, 0.9999236464500427, 0.9998403787612915, -1.0, 1.0, 0.996550440788269, -0.9999993443489075, 0.999992847442627, 1.0, -1.0, -0.9999992847442627, 0.9997310638427734, 1.0, 0.9749625325202942, -0.9041535258293152, -1.0, -0.9286376237869263, -0.9999999403953552, 1.0, -0.9999994039535522, 0.9979667663574219, 0.9761935472488403, 0.9991213083267212, -0.9984108805656433, 0.9656784534454346, 0.9871506690979004, 0.9998612403869629, 0.09811491519212723, -0.9997961521148682, -0.9999997615814209, 0.9980473518371582, -0.9994637370109558, 0.9999993443489075, 0.9763890504837036, -0.990729570388794, 0.9999982118606567, 0.9928450584411621, -0.9999992251396179, -0.9776272177696228, 0.9999983310699463, 0.3916770815849304, -0.9999984502792358, -0.9999951720237732, 0.9507632851600647, -0.9885775446891785, -1.0, -0.407357394695282, -0.9999991655349731, 0.050844792276620865, -0.9998836517333984, 1.0, 0.9999967217445374, -1.0, 1.0, -0.9951659440994263, 0.9960344433784485, -0.8031226992607117, 0.9999977350234985, 0.999980092048645, -0.9999285340309143, -0.9999992251396179, 0.9985617995262146, -1.0, 0.9859410524368286, 0.144675612449646, -0.9996901750564575, 0.9225157499313354, 0.9997621178627014, -0.9999983906745911, 0.9999041557312012, 0.9996973276138306, 0.9999953508377075, -0.9989506006240845, 1.0, -0.8870182633399963, 0.7310590147972107, 0.9999631643295288, 0.9806204438209534, 0.9999703764915466, -0.9786960482597351, 0.9999529719352722, 1.0, -0.8532302379608154, -0.9973623156547546, -0.9999863505363464, 0.9999954104423523, -0.9994751214981079, 1.0, 0.9547220468521118, 0.9943044781684875, -0.9999996423721313, -0.9251900911331177, 0.9999270439147949, 0.9996832609176636, -0.8911949992179871, 0.9999111294746399, 0.26104238629341125, 1.0, 0.9999979734420776, -0.9999998211860657, 0.9989978671073914, -0.9999998807907104, -0.9999912977218628, -0.9980067014694214, -1.0, -0.9819186925888062, -0.9999999403953552, 0.9994519948959351, 0.9996857643127441, -0.8587385416030884, 0.9999727606773376, 0.7914706468582153, -0.9643732309341431, 1.0, -0.99969482421875, 0.9792147874832153, -0.9736384153366089, 0.4138629734516144, -0.9999996423721313, 1.0, -0.9803664088249207, 0.9999831914901733, 1.0, -0.7323881387710571, -0.5178707242012024, 0.9968940019607544, -0.9999722838401794, 1.0, -0.9996495842933655, 0.9703821539878845, 0.8251219391822815, 0.9650143384933472, -0.9999948740005493, -0.9999986290931702, 0.9956245422363281, -0.998430073261261, -0.999995768070221, -0.9711902737617493, 0.9986318349838257, -0.5011720657348633, 1.0, -0.9593966603279114, 0.9994480609893799, 1.0, 0.9473124146461487, -0.8578740358352661, 0.926410436630249, -1.0, -0.6932829022407532, 0.9999987483024597, 1.0, 0.9829164147377014, -0.9701120853424072, -0.9969146251678467, 0.9999959468841553, 0.9999945163726807, -0.9981428980827332, 0.9999998807907104, -0.9338321089744568, -0.9999998211860657, 0.9999998807907104, -0.9999999403953552, -1.0, 0.8392595648765564, 0.9908031225204468, -0.9999218583106995, 1.0, 0.8853632807731628, 0.9999984502792358, 0.9399549961090088, -0.9863844513893127, 0.8924535512924194, -0.9712671041488647, -0.9999934434890747, -0.9987902641296387, 0.7681606411933899, 0.9999392628669739, -0.9999269843101501, -0.35143670439720154, 0.9952369928359985, -0.9998943209648132, -0.9851424694061279, -0.9999998211860657, 0.9999547004699707, -0.9916261434555054, 0.9999999403953552, 0.9634478092193604, 1.0, 0.9612589478492737, 0.9874624609947205, 0.9907016754150391, 0.4987054467201233, -1.0, 0.9999104142189026, -0.9999861121177673, -0.9999989867210388, 0.9999440312385559, 1.0, -0.963162362575531, 0.9996123313903809, 0.9999999403953552, 0.9999855160713196, -0.9998480081558228, -0.9884477853775024, -0.1068449392914772, -0.9998804926872253, 0.997351884841919, -1.0, -0.4660155177116394, 1.0, -0.9998304843902588, 0.9998263716697693, -0.48601233959198, -0.921393096446991, -0.9999973773956299, 0.999999463558197, 0.9974480867385864, 0.15299497544765472, 0.765002429485321, 0.9957914352416992, 0.9367901086807251, -0.9999945759773254, -0.36122483015060425, -0.9999788403511047, -0.999321460723877, 0.9949786067008972, -0.9991399049758911, 0.9999851584434509, -0.997038722038269, 0.9993942379951477, 0.9999999403953552, -0.9997382164001465, -0.9575293064117432, 0.9999592304229736, 0.9999023675918579, -0.9999593496322632, 1.0, 0.7230625748634338, -0.9823427796363831, 0.9954545497894287, 0.9999986290931702, 0.9830777049064636, -0.9998877048492432, -1.0, 0.8061262369155884, -0.9994128942489624, -0.9896291494369507, -0.9999998807907104, -0.9999840259552002, 0.9427505135536194, 0.9999995231628418, 0.9293972849845886, -0.7391173839569092, 0.6310391426086426, 1.0], \"pic_con_score\": 0.3579899072647095}",
+      "music_name": "",
+      "category_str": "",
+      "tupFrom": "",
+      "click_estimate_level": 1,
+      "is_uploader_verified": 0,
+      "uploader_category": "",
+      "playcnt": 0,
+      "big_img": "0",
+      "checkresolution": 0,
+      "is_original": 0,
+      "is_timeliness": 1,
+      "subcate": "",
+      "cur_time": 1542179666,
+      "source_type": "2",
+      "ext_info": "{\"feed\":{\"picture_small_flow\":1},\"richmedia\":{\"article_push_audit_res\":1,\"group_key_info\":{\"level\":1,\"level_original_val\":\"2\",\"level_plan\":[],\"level_type\":1010,\"level_val\":\"2\",\"source_type\":\"inner-bjh\",\"sub_type\":\"\"},\"hotnews\":1542265967,\"idlCat\":\"社会\",\"priority\":5},\"smfw\":{\"vis\":{\"new_label\":{\"sub_label\":[{\"事故灾难\":0.623578667640690}],\"时事\":0.747084140777590}}}}",
+      "version": [],
+      "effective_timestamp": 0,
+      "quality": 0,
+      "tags": [
+        {
+          "灾难灾害": 240
+        },
+        {
+          "国际社会": 240
+        },
+        {
+          "加州大火": 240
+        },
+        {
+          "美国加州": 240
+        },
+        {
+          "事故灾难": 240
+        },
+        {
+          "山火": 140
+        },
+        {
+          "加州": 186
+        },
+        {
+          "死亡": 100
+        },
+        {
+          "美国": 167
+        },
+        {
+          "持续": 89
+        }
+      ],
+      "micro_video_clarity": 0,
+      "checkproperty_people": [],
+      "commentcnt": 0,
+      "operate": 0,
+      "subgenre": "",
+      "domain": "baijiahao.baidu.com",
+      "videoScore": 0,
+      "author_authority_score_v1": 3,
+      "author_uk": "",
+      "checkproperty_entity": [],
+      "vector_ext": "",
+      "gk_tags": [
+        {
+          "name": "灾难灾害",
+          "weight": 240
+        },
+        {
+          "name": "国际社会",
+          "weight": 240
+        },
+        {
+          "name": "加州大火",
+          "weight": 240
+        },
+        {
+          "name": "美国加州",
+          "weight": 240
+        },
+        {
+          "name": "事故灾难",
+          "weight": 240
+        },
+        {
+          "name": "山火",
+          "weight": 140
+        },
+        {
+          "name": "加州",
+          "weight": 186
+        },
+        {
+          "name": "死亡",
+          "weight": 100
+        },
+        {
+          "name": "美国",
+          "weight": 167
+        },
+        {
+          "name": "持续",
+          "weight": 89
+        }
+      ],
+      "high_quality_repo": {
+        "is_hqv3_data": 0,
+        "is_hqv2_data": 0,
+        "is_hqv2_time": 1542179669
+      },
+      "video_cover": "https://ss0.bdstatic.com/9bA1vGfa2gU2pMbfm9GUKT-wtimg?searchbox_feed&quality=100&wh_rate=0&size=b500_625&ref=http%3A%2F%2Fwww.baidu.com&sec=0&di=923283ec94ee1eb&src=http%3A%2F%2Fpic.rmb.bdstatic.com%2F4ad6a87bebf5576b219aeb81c36da177.jpeg",
+      "checkcopyright": "",
+      "loc": "http://www.internal.video.baidu.com/99998c5247c925dc86bed952cbca84b6.html",
+      "city": "",
+      "kgid": "",
+      "pushPendingData": "",
+      "productionType": 0,
+      "sound_src": 0,
+      "mthid": "1567462926329612",
+      "hot": 1,
+      "h5url": "",
+      "promote": 0,
+      "lightGlance": "",
+      "bjh_strategy_recom_attr": "",
+      "effectivetime": 0,
+      "weburl": "https://baijiahao.baidu.com/s?id=1617092481798644529&wfr=content",
+      "uploader": "生活欢乐汇",
+      "genre": 0,
+      "PIP_HEADER": {
+        "Priority": "ProcessorVideo",
+        "mode_time": [
+          {
+            "next_tag": "element_echo",
+            "module_name": "ElementImporter",
+            "time": "1542179666.69:1542179666.69"
+          },
+          {
+            "next_tag": "element_echo_next",
+            "module_name": "ElementEcho",
+            "time": "1542179672.28:1542179672.29"
+          }
+        ],
+        "Url": "https://baijiahao.baidu.com/s?id=1617092481798644529&wfr=content"
+      },
+      "dynamic_img": "",
+      "isdel": 0,
+      "key": "http://www.internal.video.baidu.com/99998c5247c925dc86bed952cbca84b6.html",
+      "title_nlpc_lexer_reshape": [
+        [
+          "美国",
+          "2201",
+          ""
+        ],
+        [
+          " ",
+          "",
+          "w"
+        ],
+        [
+          "加州",
+          "2205",
+          ""
+        ],
+        [
+          "山火",
+          "",
+          "n"
+        ],
+        [
+          "持续",
+          "",
+          "v"
+        ],
+        [
+          " ",
+          "",
+          "w"
+        ],
+        [
+          "已",
+          "",
+          "d"
+        ],
+        [
+          "致",
+          "",
+          "v"
+        ],
+        [
+          "44人",
+          "[D:UNIT_NUM]",
+          ""
+        ],
+        [
+          "死亡",
+          "",
+          "v"
+        ]
+      ],
+      "category_info": "",
+      "channal_id": "",
+      "check_nobigpic_reason": [],
+      "new_title_phrase_seg_list": [
+        "美国",
+        " ",
+        "加州",
+        "山",
+        "火",
+        "持续",
+        " ",
+        "已",
+        "致",
+        "44",
+        "人",
+        "死亡"
+      ],
+      "new_cate_mul_v2": {
+        "时事": 0.74708414077759
+      },
+      "first_zp_time": 1542179640,
+      "is_long": 0,
+      "news_hierarchy": [],
+      "is_cooperate": 0,
+      "video_tag_api_result": "{\"nlp_result\":{\"attention\":{\"国际社会\":999}},\"ocr_result\":\"\",\"ori_tags_result\":{\"kg\":[\"美国\",\"加州\"],\"nlp\":null,\"nlp_title\":[\"国际社会\"],\"tags_author\":[]},\"smfw_result\":{\"nlp_smfw_1\":{\"attention\":{\"事故灾难\":742,\"国际社会\":669}}},\"tags_result\":[\"国际社会\",\"美国\"],\"vis_result\":[]}",
+      "check_bigpic": 0,
+      "url": "https://baijiahao.baidu.com/s?id=1617092481798644529&wfr=content",
+      "filter": 0,
+      "new_cate_v2": "时事",
+      "title_NE": "",
+      "appid": 1000,
+      "realurl": "http://vd3.bdstatic.com/mda-ikdmf9ew742v8zbt/mda-ikdmf9ew742v8zbt.mp4?playlist=%5B%22hd%22%2C%22sc%22%5D",
+      "invalid_time": 1542265967,
+      "logid": 1617092483839327020,
+      "public_time": 1542179568,
+      "siteAccountId": 3025019913,
+      "zp_time": 1542179666,
+      "new_sub_cate_v2": "事故灾难",
+      "viddo_brief_rewrite": 1,
+      "img_push": "http://pic.rmb.bdstatic.com/4ad6a87bebf5576b219aeb81c36da177.jpeg",
+      "original_status": 0,
+      "landpage_url_push": "https://sv.baidu.com/videoui/data/videoland?srchid=6b1c2&context=%7b%22nid%22%3a%22sv_4861280493100073230%22+%2c%22sourceFrom%22%3a%22trans%22%7d&backflow=1&pd=d_push&pagepd=d_push",
+      "live_type": "0",
+      "source": "生活欢乐汇",
+      "landpage_url_bjh": "https://sv.baidu.com/videoui/data/videoland?srchid=6b1c2&context=%7b%22nid%22%3a%22sv_4861280493100073230%22+%2c%22sourceFrom%22%3a%22trans%22%7d",
+      "manual_tags": [
+        "灾难灾害",
+        "国际社会",
+        "加州大火",
+        "美国加州",
+        "事故灾难"
+      ],
+      "st_ext": "{\"bjhExt\":\"{\\\"group_key_info\\\":{\\\"level\\\":1,\\\"level_original_val\\\":\\\"2\\\",\\\"level_plan\\\":[],\\\"level_type\\\":1010,\\\"level_val\\\":\\\"2\\\",\\\"source_type\\\":\\\"inner-bjh\\\",\\\"sub_type\\\":\\\"\\\"},\\\"hotnews\\\":1542265967,\\\"idlCat\\\":\\\"社会\\\",\\\"picture_small_flow\\\":1,\\\"priority\\\":5}\",\"checkImgScore\":\"0.2958\",\"checkProperty\":\"\",\"checkType\":11,\"effectiveEndTime\":\"\",\"isCooperate\":0,\"isOriginal\":0,\"lowNegative\":\"\",\"siteAccountId\":3025019913,\"timeLinessExt\":\"\",\"videoDefinitionScore\":\"\",\"videoInfoExt\":{\"audio_mp3\":{\"vodVideoHW\":\"0$$0\"},\"default\":{\"vodVideoHW\":\"360$$640\"},\"hd\":{\"vodVideoHW\":\"480$$852\"},\"sc\":{\"vodVideoHW\":\"720$$1280\"}},\"videoOtherExt\":{\"bjhSourceName\":\"时效性发文平台\",\"coverScore\":{\"coverSrc\":{\"score\":3.82760,\"url\":\"http://timg01.bdimg.com/timg?pa&imgType=0&sec=1439619614&di=3e11a0886833cffbf6a013d0e02a3715&quality=100&size=f660_370&src=http%3A%2F%2Fpic.rmb.bdstatic.com%2F4ad6a87bebf5576b219aeb81c36da177.jpeg\",\"version\":\"2.0\"}},\"idlCategoryProbability\":{\"社会\":0.932339191436770,\"灾难事故\":0.793980419635770},\"idl_lable_all\":{\"label\":[{\"sub_label\":[{\"灾难事故\":0.793980419635770},{\"民生\":0.175144582986830},{\"地区发展\":0.0063778706826270}],\"社会\":0.932339191436770},{\"sub_label\":[{\"国内时政\":0.00319419032894070},{\"国际时政\":0.00262181367725130}],\"时政\":0.0220971088856460},{\"sub_label\":[{\"环球自然\":0.00202562520280480},{\"野性\":0.000122503755846990},{\"呆萌\":1.823598176997600e-05}],\"大自然\":0.0128503749147060},{\"sub_label\":[{\"军事周边\":0.00136484974063930},{\"军事评论\":0.00022028334205970},{\"兵器装备\":0.000166983358212750}],\"军事\":0.0118694594129920},{\"sub_label\":[{\"旅途风光\":0.000478846486657860},{\"旅途趣闻\":0.000355186493834480},{\"旅行攻略\":2.070269511023100e-05}],\"旅游\":0.009085427969694099}],\"label_new\":[{\"sub_label\":[{\"事故灾难\":0.623578667640690}],\"时事\":0.747084140777590}],\"selection\":{\"end_time\":53,\"section\":\"http://yq01-ps-feed201705-g2214.yq01.baidu.com:8006/570f30c8-ad22-47aa-a690-3ed817b1702d.mp4\",\"start_time\":47}},\"previewUrlHttpTime\":{\"end_time\":53,\"start_time\":47},\"pulpScore\":0.0050009350},\"videoScore\":0}",
+      "weibo_heat": "",
+      "elevate_ratio": {
+        "bs": 1.6,
+        "grc": 1.2,
+        "ucf": 1.6,
+        "matchnet": 1.6,
+        "gr": 1.2,
+        "icf": 1.6,
+        "cb": 1.6
+      },
+      "check_info": "{\"bigpic\":0,\"checkCategory\":\"社会\",\"checkSubCategory\":\"灾难事故\",\"previewQuality\":1}",
+      "tab": "news",
+      "cover_clarity_score": 3.8276,
+      "isFilterOldData": 0,
+      "selfBuildAudioBps": 128806,
+      "new_cate": "社会",
+      "smfw": {
+        "1005479_1": {
+          "expire_time": 1549955568
+        },
+        "1009088_3": {
+          "vertical_level_bak": 3,
+          "author_authority_score_v1": 3
+        },
+        "1005405_1": {
+          "expire_time": 1549955568
+        },
+        "1005148_1": {
+          "gk_tags": [
+            {
+              "name": "山火",
+              "weight": 140
+            },
+            {
+              "name": "加州",
+              "weight": 186
+            },
+            {
+              "name": "死亡",
+              "weight": 100
+            },
+            {
+              "name": "美国",
+              "weight": 167
+            },
+            {
+              "name": "持续",
+              "weight": 89
+            }
+          ],
+          "manual_tags": [],
+          "tags": [
+            {
+              "山火": 140
+            },
+            {
+              "加州": 186
+            },
+            {
+              "死亡": 100
+            },
+            {
+              "美国": 167
+            },
+            {
+              "持续": 89
+            }
+          ]
+        },
+        "1007097_1": {
+          "gk_tags": [
+            {
+              "name": "灾难灾害",
+              "weight": 240
+            },
+            {
+              "name": "国际社会",
+              "weight": 240
+            },
+            {
+              "name": "加州大火",
+              "weight": 240
+            },
+            {
+              "name": "美国加州",
+              "weight": 240
+            },
+            {
+              "name": "事故灾难",
+              "weight": 240
+            },
+            {
+              "name": "山火",
+              "weight": 140
+            },
+            {
+              "name": "加州",
+              "weight": 186
+            },
+            {
+              "name": "死亡",
+              "weight": 100
+            },
+            {
+              "name": "美国",
+              "weight": 167
+            },
+            {
+              "name": "持续",
+              "weight": 89
+            }
+          ],
+          "manual_tags": [
+            "事故灾难",
+            "国际社会",
+            "加州大火",
+            "灾难灾害",
+            "美国加州"
+          ],
+          "tags": [
+            {
+              "灾难灾害": 240
+            },
+            {
+              "国际社会": 240
+            },
+            {
+              "加州大火": 240
+            },
+            {
+              "美国加州": 240
+            },
+            {
+              "事故灾难": 240
+            },
+            {
+              "山火": 140
+            },
+            {
+              "加州": 186
+            },
+            {
+              "死亡": 100
+            },
+            {
+              "美国": 167
+            },
+            {
+              "持续": 89
+            }
+          ]
+        },
+        "1008092_3": {
+          "vertical_level_bak": 2,
+          "author_authority_score_v1": 2
+        }
+      },
+      "bjhExt": "{\"group_key_info\":{\"level\":1,\"level_original_val\":\"2\",\"level_plan\":[],\"level_type\":1010,\"level_val\":\"2\",\"source_type\":\"inner-bjh\",\"sub_type\":\"\"},\"hotnews\":1542265967,\"idlCat\":\"社会\",\"picture_small_flow\":1,\"priority\":5}",
+      "checkType": 11,
+      "author_brand_info": {
+        "author_brand_authority_score": 0.7402,
+        "sv_group": 1,
+        "sv_author_brand_spread_score": 0.6391,
+        "sv_author_brand_verticality_score": 0.724,
+        "group_code": [
+          "100001"
+        ],
+        "sv_author_brand_interaction_score": 0.5364,
+        "sv_author_brand_spread_detail": {
+          "nids": 11876,
+          "share_all": 6758,
+          "share_avg": 0.569,
+          "click_all": 5300080,
+          "click_avg": 446.2851
+        },
+        "sv_author_brand_health_detail": {},
+        "sv_author_brand_level": 3,
+        "author_brand_authority_detail": {
+          "vert_level_news": -1,
+          "vert_level_video": 3,
+          "bjh_fans": 76320,
+          "toutiao_fans": 0,
+          "toutiao_is_v": -1,
+          "bjh_is_v": 0
+        },
+        "sv_author_brand_health_score": 0.4708,
+        "author_brand_authority_level": 3,
+        "sv_author_brand_interaction_detail": {
+          "avg_like_num": 0.8347,
+          "comment_num": 22925,
+          "good_flag": 0,
+          "like_num": 9913,
+          "follower_num": 5343,
+          "collect_num": 10938,
+          "click_num": 5300080,
+          "avg_comment_num": 1.9304,
+          "news_num": 11876,
+          "avg_follower_num": 0.4499,
+          "avg_collect_num": 0.921,
+          "avg_share_num": 0.569,
+          "share_num": 6758
+        },
+        "sv_author_brand_interaction_level": 2,
+        "sv_author_brand_health_level": 2,
+        "sv_author_brand_spread_level": 3,
+        "sv_author_brand_verticality_level": 3,
+        "sv_author_brand_score": 0.6605,
+        "sv_author_brand_verticality_detail": {
+          "cate": {
+            "name_mismatch": 0,
+            "wishes_mishmatch": 0,
+            "detail": {
+              "社会": 0.67,
+              "时政": 0.07,
+              "nids": 15474,
+              "财经": 0.08
+            }
+          },
+          "sub_cate": {
+            "name_mismatch": 0,
+            "wishes_mishmatch": 0,
+            "detail": {
+              "宏观经济": 0.02,
+              "民生": 0.6,
+              "灾难事故": 0.05,
+              "nids": 14570,
+              "国际时政": 0.05,
+              "投资理财": 0.05
+            }
+          }
+        }
+      },
+      "bg_sound_rec": "",
+      "check_content_quality": [],
+      "create_time": 1542179584,
+      "general_tag": {
+        "新闻综合_社会百态": 41
+      },
+      "coverquality": 0,
+      "author": "生活欢乐汇",
+      "new_sub_cate_mul_v2": {
+        "事故灾难": 0.62357866764069
+      },
+      "url_sign": 4861280493100073230,
+      "hot_words": "",
+      "expire_time": 1557731568,
+      "vfs_list": "2557648239292690084,459231719452759356",
+      "srchid": "6b1c2",
+      "rts_recall_type": [],
+      "selfBuildVideoHW": "1280$$720",
+      "new_sub_cate": "灾难事故",
+      "operator_time": {
+        "al2_nlpc_output_time": 1542179667.775993,
+        "video_quality_output_time": 1542179671.179478,
+        "al2_video_data_analyzer_input_time": 1542179670.057236,
+        "sndc_send_time": 1542179666,
+        "al2_nlpc_input_time": 1542179667.767365,
+        "content_rcmc_agent_input_time": 1542179674.114676,
+        "video_content_model_input_time": 1542179669.001413,
+        "video_content_model_output_time": 1542179669.17558,
+        "part1_importer_input_time": 1542179666.686095,
+        "video_quality_input_time": 1542179671.171291,
+        "part1_importer_output_time": 1542179666.686892,
+        "al2_video_data_analyzer_output_time": 1542179670.060194
+      },
+      "source_prefix_infos": "sv_",
+      "img_url": "http://pic.rmb.bdstatic.com/4ad6a87bebf5576b219aeb81c36da177.jpeg",
+      "videoInfoExt": "{\"audio_mp3\":{\"mp3UrlHttp\":\"http://vd3.bdstatic.com/mda-ikdmf9ew742v8zbt/audiomp3/mda-ikdmf9ew742v8zbt.mp3\",\"mp3UrlHttps\":\"https://vd3.bdstatic.com/mda-ikdmf9ew742v8zbt/audiomp3/mda-ikdmf9ew742v8zbt.mp3\",\"vodMoovSize\":0,\"vodVideoBps\":96256,\"vodVideoDuration\":67,\"vodVideoHW\":\"0$$0\",\"vodVideoRate\":0,\"vodVideoSize\":809212},\"default\":{\"defaultUrlHttp\":\"http://vd3.bdstatic.com/mda-ikdmf9ew742v8zbt/mda-ikdmf9ew742v8zbt.mp4\",\"defaultUrlHttps\":\"https://vd3.bdstatic.com/mda-ikdmf9ew742v8zbt/mda-ikdmf9ew742v8zbt.mp4\",\"vodMoovSize\":34398,\"vodVideoBps\":573440,\"vodVideoDuration\":67,\"vodVideoHW\":\"360$$640\",\"vodVideoRate\":25,\"vodVideoSize\":4810666},\"hd\":{\"hdUrlHttp\":\"http://vd3.bdstatic.com/mda-ikdmf9ew742v8zbt/hd/mda-ikdmf9ew742v8zbt.mp4\",\"hdUrlHttps\":\"https://vd3.bdstatic.com/mda-ikdmf9ew742v8zbt/hd/mda-ikdmf9ew742v8zbt.mp4\",\"vodMoovSize\":34583,\"vodVideoBps\":780288,\"vodVideoDuration\":67,\"vodVideoHW\":\"480$$852\",\"vodVideoRate\":25,\"vodVideoSize\":6540382},\"sc\":{\"scUrlHttp\":\"http://vd3.bdstatic.com/mda-ikdmf9ew742v8zbt/sc/mda-ikdmf9ew742v8zbt.mp4\",\"scUrlHttps\":\"https://vd3.bdstatic.com/mda-ikdmf9ew742v8zbt/sc/mda-ikdmf9ew742v8zbt.mp4\",\"vodMoovSize\":34221,\"vodVideoBps\":1383424,\"vodVideoDuration\":67,\"vodVideoHW\":\"720$$1280\",\"vodVideoRate\":25,\"vodVideoSize\":11587640}}",
+      "authority": 0,
+      "is_nature": 0,
+      "is_over_average": 0,
+      "boom_time": 0,
+      "video_heat": "0",
+      "bigpic": "0",
+      "isTimelinessAccount": "1",
+      "titlequality": 0,
+      "video_duration": 67,
+      "hq_author_ext_info": {
+        "stage": [
+          "high_fans"
+        ]
+      },
+      "description": "",
+      "auto_tag": "",
+      "title": "美国 加州山火持续 已致44人死亡",
+      "selfBuildVideoBps": 1511544,
+      "video_provider": "baijiahao.com",
+      "long_video_type": "",
+      "check_attribute": [],
+      "expire_time_refactoring": 1549955568,
+      "negative": 0,
+      "vis_tag_res": {},
+      "author_quality_level_ext_info": {
+        "strategy": []
+      },
+      "nlpc_title_seg": [
+        "美国",
+        "加州",
+        "山火",
+        "持续",
+        "已",
+        "致",
+        "44",
+        "人",
+        "死亡"
+      ],
+      "uploader_score": "0",
+      "del_src": "ProcessorVideo",
+      "vertical_level_bak": 2,
+      "selfBuildAudioRateInHz": 44100,
+      "video_clarity_score": 4.575,
+      "vertical_type": 14,
+      "pulp_score": 0.005000934936106205,
+      "sourceFrom": "baijiahao_rel",
+      "del_info": "bjh video del",
+      "selfBuildAudioChannel": 2,
+      "nlpc_tags": [
+        {
+          "美国": 1
+        },
+        {
+          "加州": 1
+        }
+      ],
+      "selfBuildVideoRate": 25,
+      "click_estimate_score": 0.06455762933672511,
+      "originalUrl": "https://baijiahao.baidu.com/s?id=1617092481798644529&wfr=content",
+      "bg_sound": "",
+      "video_type": "1",
+      "author_quality_level": 2,
+      "is_boom": 0,
+      "category": 0,
+      "check_img_score": "0.2958",
+      "subcate_str": ""
+    }
+  ],
+  "error": "success",
+  "status": {
+    "4861280493100073230": 0
+  }
+}

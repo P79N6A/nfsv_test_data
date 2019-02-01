@@ -1,0 +1,72 @@
+{
+    "metadata": {
+        "output_name": "./output.webm"
+    },
+    "expected_duration": 15.34,
+    "tracks": [
+        {
+            "media_path": "/Users/ludaming/Baidu_USA_DamingLu/news_feed_short_video/test_data/88_topic_1/raw_materials/3.mp3",
+            "subclip_start": 0,
+            "duration": 9.04,
+            "start": 0.0,
+            "type": "audio"
+        },
+        {
+            "media_path": "/Users/ludaming/Baidu_USA_DamingLu/news_feed_short_video/test_data/88_topic_1/raw_materials/15.mp3",
+            "subclip_start": 0,
+            "duration": 2.05,
+            "start": 9.04,
+            "type": "audio"
+        },
+        {
+            "media_path": "/Users/ludaming/Baidu_USA_DamingLu/news_feed_short_video/test_data/88_topic_1/raw_materials/19.mp3",
+            "subclip_start": 0,
+            "duration": 4.25,
+            "start": 11.09,
+            "type": "audio"
+        },
+        {
+            "media_path": "./person_img_1.JPEG",
+            "subclip_start": 0,
+            "duration": 3,
+            "start": 0.0,
+            "type": "image"
+        },
+        {
+            "media_path": "./text_img_2.JPEG",
+            "subclip_start": 0,
+            "duration": 4,
+            "start": 3.0,
+            "type": "image"
+        },
+        {
+            "media_path": "./text_img_3.JPEG",
+            "subclip_start": 0,
+            "duration": 3.0,
+            "start": 7.0,
+            "type": "image"
+        },
+        {
+            "media_path": "./text_img_6.JPEG",
+            "subclip_start": 0,
+            "duration": 3.0,
+            "start": 10.0,
+            "type": "image"
+        },                
+        {
+            "media_path": "./text_img_7.JPEG",
+            "subclip_start": 0,
+            "duration": 2.34,
+            "start": 13.0,
+            "type": "image"
+        }
+    ],
+    "caption_tracks": [
+        {
+            "txt": "\u4e0d\u8fc7\uff0c\u7531\u4e8e\u5728\u964d\u843d\u8fc7\u7a0b\u955c\u5934\u76d6\u6ca1\u6709\u5b8c\u5168\u6253\u5f00\uff0c\u201c\u6d1e\u5bdf\u53f7\u201d\u4f20\u56de\u7684\u9996\u5f20\u62cd\u6444\u7167\u7247\u5f02\u5e38\u6591\u9a73\u6a21\u7cca\uff0c\u5f15\u53d1\u4e86\u7f51\u53cb\u5410\u69fd\u3002\u201c\u6d1e\u5bdf\u53f7\u201d\u4f20\u56de\u7684\u9996\u5f20\u7167\u7247\u201c\u6211\u7684\u955c\u5934\u76d6\u8fd8\u6ca1\u5b8c\u5168\u6253\u5f00\uff0c\u4f46\u6211\u60f3\u8ba9\u4f60\u4eec\u5148\u770b\u770b\u6211\u7684\u65b0\u5bb6\u201d\u3002",
+            "start": 0.0,
+            "duration": 15.34,
+            "style": 0
+        }
+    ]
+}
